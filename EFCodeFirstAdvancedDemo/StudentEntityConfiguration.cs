@@ -19,6 +19,7 @@ namespace EFCodeFirstAdvancedDemo
             this.HasKey<int>(s => s.StudentID);
 
 
+
             this.Property(p => p.DateOfBirth)
                     .HasColumnName("DoB")
                     .HasColumnOrder(3)
